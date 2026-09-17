@@ -32,6 +32,7 @@ public class Login {    //rule1:..create seperate java class for all pages
 
 	public WebElement getPasswordEdit() {
 		return passwordEdit;
+		
 	}
 
 	public WebElement getLoginBtn() {
@@ -44,6 +45,7 @@ public class Login {    //rule1:..create seperate java class for all pages
 		usernameEdit.sendKeys(username);
 		passwordEdit.sendKeys(password);
 		loginBtn.click();
+		System.out.println("hii i hv updated in my loginpage which should be for gitHub");
 	}
 	
 	
