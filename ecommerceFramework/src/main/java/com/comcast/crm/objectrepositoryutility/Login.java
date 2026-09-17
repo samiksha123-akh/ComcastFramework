@@ -47,7 +47,5 @@ public class Login {    //rule1:..create seperate java class for all pages
 		loginBtn.click();
 		System.out.println("hii i hv updated in my loginpage which should be for gitHub");
 	}
-	
-	
-	
+		
 }
